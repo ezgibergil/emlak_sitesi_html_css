@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: aqua;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    color: aqua;
+    text-align: center;
+
+}
+
+.contact-form {
+    background-color:darkseagreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    width: 40%;
+
+}
+.form-group{
+    display: block;
+    color:bisque;
+    margin-bottom: 5px;
+    
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding:10px;
+    border-radius: 4px;
+    border:1px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.submit-btn{
+    background-color: blueviolet;
+    border:none;
+
+}
+.submit-btn:hover{
+
+}
+form{
+    align-items: center;
+}
